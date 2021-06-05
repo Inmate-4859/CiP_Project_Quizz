@@ -29,7 +29,8 @@ def addQuestion():
         print('Go back. ')
         addQuestion()
 
-
+print('Add a new question to the quizz. To stop adding questions, type "stop".'
+      
 # actual function loop running
 while True:
     addQuestion()
